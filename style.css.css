@@ -1,0 +1,669 @@
+.header {
+	height: 800px;
+	background-color: cadetblue;
+	position: relative;
+	width: 100%
+}
+.o1 {
+	height: 800px;
+	background-color: aliceblue;
+	width: 30%;
+	float: left;
+}
+.ul1 {
+	list-style-type: none;
+	font-size: 1.5em;
+	padding-top: 3vh;
+}
+li {
+	display: inline;
+	padding-left: 1.6vw;
+}
+.ul1 a{
+	color: black;
+	text-decoration:none;
+	
+}
+.ul1 li:hover{
+	color:cadetblue;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.o2 {
+	float: left;
+	width: 70%;
+	height: 800px;
+	background-image: url("photo-1551717743-49959800b1f6.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 6em;
+}
+.noidung {
+	position: absolute;
+	left: 10vw;
+	top: 13vh;
+}
+.nut1 {
+	height: 5vh;
+	width: 15vh;
+	background-color:yellow;
+	border-radius: 50px;
+	color: black;
+	margin-top: 50px;
+	text-transform: uppercase;
+	border: 0px solid cadetblue;
+}
+.nut1:hover{
+	background-color: black;
+    color: white;
+}
+.noidung p {
+	margin-top: -40px;
+}
+.noidung1 {
+	height: 700px;
+	background-image: url("phu-quoc-united-center-trang-chu-banner-03.png");
+	color: aliceblue;
+	width: 100%
+}
+.nd1 {
+	height: 480px;
+	width:23%;
+	background-color: black;
+	float: right;
+	color: black;
+	margin-top: -350px;
+}
+.nd2 {
+	height: 480px;
+	width: 23%;
+	background-color: black;
+	z-index: 1;
+	float: right;
+	color:black;
+	margin-right: 30px;
+	margin-top: -350px;
+}
+.tieude {
+	font-size:180px;
+	color: white;
+	line-height: 0px;
+
+}
+.noidungnho {
+	padding-top: 150px;
+	padding-left: 200px;
+    color: black;
+    background-color: 
+}
+.tieudephu {
+	font-size: 30px;
+    color: white;
+}
+.nd2nho{
+	margin-top: -10px;
+	margin-left: 30px;
+    color:white;
+}
+.nut2 {
+	color:black;
+	width: 150px;
+	height: 30px;
+	background-color:yellow;
+	border: 0px  solid hsla(359,56%,62%,1.00);
+	text-transform: uppercase;
+}
+.nut2:hover{
+	background-color: black;
+    color: white;
+}
+.noidung2 {
+	height: 950px;
+	width: 100%
+}
+.tieude2 {
+	float: left;
+	margin-left: 200px;
+}
+.menubar {
+	float: right;
+	font-size: 30px;
+	padding-right: 100px;
+	padding-top: 50px;
+}
+.menubar a{
+	color: black;
+	text-decoration: none;
+}
+.menubar a:hover{
+	border: 2px solid black;
+	text-align: center;
+	border-radius: 50px;
+}
+.li2 { 
+	padding-right: 100px;
+	margin-left: 50px;
+	border-radius: 50px;
+}
+.grid-nd {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin-top: -700px;
+	margin-left: 200px;
+	margin-right: 200px;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	text-align: center;
+	font-size: 50px;
+}
+.oo2 {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background-color: brown;
+	width: 100%;
+	height: 300px;
+	background-image:url("photo-1558929996-da64ba858215.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:center;
+	
+}
+.o3 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: chartreuse;
+	height: 300px;
+	width: 100%;
+	background-image: url("photo-1525253086316-d0c936c814f8.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.oo1 {
+	background-color: crimson;
+	height: 300px;
+	width: 100%;
+	background-image: url("photo-1535930891776-0c2dfb7fda1a.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+.oo1:hover{
+	box-shadow: 0px 0px 15px 10px black;
+}
+.oo2:hover{
+	box-shadow: 0px 0px 15px 10px black;
+}
+.o3:hover{
+	box-shadow: 0px 0px 15px 10px black;
+}
+.o4:hover{
+	box-shadow: 0px 0px 15px 10px black;
+}
+.o4 {
+	background-color: yellowgreen;
+	height: 300px;
+	width: 100%;
+	background-image: url("photo-1598134493136-7b63ebbd7b64.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.grid-nd {
+	text-align: left;
+	font-size: 30px;
+	color:aliceblue;
+}
+.grid-nd h2{
+	padding-left: 50px;
+	padding-top: 120px;
+}
+.grid-nd h2:hover{
+	color: black;
+	text-decoration: underline;
+}
+.grid-nd a{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.noidung3 {
+	height: 1000px;
+	position: relative;
+}
+.hinh1 {
+	height: 450px;
+	width: 46%;
+	margin-left: 200px;
+	background-color: brown;
+	background-image: url("photo-1518717758536-85ae29035b6d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+	position: absolute;
+	top:250px;
+}
+
+
+.hinh1:hover .chunhoa2{
+	display:block;
+	opacity: 100%;
+}
+.hinh2:hover .chunhoa2{
+	display:block;
+	opacity: 100%;
+}
+.hinh3:hover .chunhoa2{
+	display:block;
+	opacity: 100%;
+}
+.chunhoa2{
+	padding-top: 60px;
+	padding-left: 140px;
+	font-size: 120px;
+	display: none;
+}
+.hinh2 {
+	height: 400px;
+	width: 23%;
+	background-color: blueviolet;
+	z-index: 10;
+	position: absolute;
+	top:400px;
+	left: 1040px;
+	background-image: url("photo-1517638083100-3f5eb3055a8d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.hinh3 {
+	height: 300px;
+	width: 23%;
+	background-color: blue;
+	z-index: 20;
+	position: absolute;
+	top:600px;
+	left:750px;
+	background-image: url("photo-1519150268069-c094cfc0b3c8.jpg");
+	
+}
+.chu5 {
+	position: absolute;
+	top:725px;
+	left: 200px;
+	text-align: left;
+}
+.noidung4 {
+	height: 400px;
+	background-color: yellow;
+	text-align: center;
+	position: relative;
+}
+input  {
+	height: 40px;
+	border-radius: 50px;
+	background-color: darkblue;
+	width: 600px;
+}
+.nutgui {
+	height: 46px; width: 200px;
+	background-color: aliceblue;
+	color: black;
+	border: 0px solid hsla(0,0%,100%,1.00);
+	margin-top: 3px;
+	margin-left: 92px;
+	position: absolute;
+	top: 297px;
+	left: 1150px;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+fieldset {
+	border-radius: 50px;
+	width: 900px;
+	height: 30px;
+	background-color: darkblue;
+	margin-left: 23vw;
+	border: 0px solid darkblue;
+}
+
+.ten {
+	margin-top: -5px;
+	border: 0px solid darkblue;
+	z-index: 100;
+	margin-left: -120px;
+	color: aliceblue;
+	text-transform: uppercase;
+	font-size: 20px;
+	
+}
+
+.tieude3 {
+	padding-top: 120px;
+	line-height: 0px;
+}
+form{
+	margin-top: 80px;
+}
+.noidung5 {
+	height: 600px;
+	position: relative;
+}
+.noidung5 p{
+	margin-left: 200px;
+	padding-top: 300px;
+}
+.hinhanh {
+	height: 300px;
+	width: 300px;
+	margin-left: 850px;
+	margin-top: -200px;
+}
+.li3 {
+	display: block;
+	
+}
+.noidungnhoxiu{
+	position: absolute;
+	top:280px;
+	left: 1300px;
+}
+.ul2 {
+	margin-left: -40px;
+	list-style-type:georgian;
+}
+.hinhanh2 {
+	height: 50px;
+	width: 30px;
+	position: absolute;
+	left: -20px;
+	top: 63px;
+}
+.chuo {
+	margin-left: -20px;
+}
+.ul3 {
+	position: absolute;
+	left: 280px;
+	top: 40px;
+	right: 200px;
+}
+.noidung6{
+	height: 900px;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.item1{
+	background-image: url("photo-1516222338250-863216ce01ea.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 800px;
+	width: 100%;
+}
+.item2{
+	background-image: url("photo-1518020382113-a7e8fc38eac9.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+}
+.item3{
+	background-image: url("photo-1568573681911-c221659d593d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+}
+
+.item5{
+	background-image: url("photo-1517638083100-3f5eb3055a8d.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+	margin-top: -100px;
+}
+.item6{
+	background-image: url("photo-1491604612772-6853927639ef.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	width: 100%;
+		margin-top: -100px;
+}
+.item1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+.item4 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+.chunhoa3 {
+	padding-top: 80px;
+	padding-left: 100px;
+	font-size: 100px;
+	color: black;
+	display: none;
+}
+.item1:hover .chunhoa3{
+	display: block;
+}
+.item2:hover .chunhoa3{
+	display: block;
+}
+.item3:hover .chunhoa3{
+	display: block;
+}
+.item5:hover .chunhoa3{
+	display: block;
+}
+.item6:hover .chunhoa3{
+	display: block;
+}
+.noidung7{
+	height: 150px;
+}
+.nut7{
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	border-radius: 50px;
+	background-color:yellow;
+	color: black;
+	text-transform: uppercase;
+	font-size: 15px;
+	border: 0px solid cadetblue;
+	margin-left: 830px;
+}
+.nut7:hover{
+	background-color: black;
+	color: white;
+}
+.divroll {
+	height: 350px;
+	width: 100%;
+}
+.hinhroll{
+	height: 300px;
+	width: 100%;
+}
+.hinhroll2{
+	height: 300px;
+	width: 100%;
+}
+.hinhroll3{
+	height: 300px;
+	width: 100%;
+}
+.hinhroll4{
+	height: 300px;
+	width: 100%;
+}
+.hinhroll5{
+	height: 300px;
+	width: 100%;
+}
+.noidung9{
+	height: 500px;
+	position: relative;
+}
+.chup {
+	position: absolute;
+	top:150px;
+	left:200px;
+}
+.noidung8nho {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	height: 300px;
+	width: 100%;
+	position: absolute;
+	top:300px;
+	left: 20px;
+	right: 20px;
+}
+.noidung8nho h1{
+	line-height: 0px;
+	font-size: 60px;
+}
+#chuz {
+	color: aliceblue;
+	padding-top: 50px;
+}
+.noidung10 {
+	height: 600px;
+	background-image: url("screenshot_1626848915.png");
+	position: relative;
+}
+.contact1 {
+	height: 250px;
+	width: 400px;
+	background-color: black;
+	position: absolute;
+	top:240px;
+	left: 200px;
+}
+.dienthoai  {
+	height: 50px;
+	width: 50px;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+.dienthoai2  {
+	height: 50px;
+	width: 50px;
+	margin-top: 15px;
+	margin-left: 45px;
+}
+.h41{ 
+position: absolute;
+	top:20px;
+	left: 120px;
+    color: white;
+}
+.h42{ 
+position: absolute;
+	top:90px;
+	left: 120px;
+    color: white;
+}
+.fb  {
+	height: 60px;
+	width: 60px;
+}
+.ins  {
+	height: 40px;
+	width: 40px;
+	margin-bottom: 9px;
+}
+.tw  {
+	height: 60px;
+	width: 60px;
+}
+.pin  {
+	height: 60px;
+	width: 60px;
+}
+.contact3 {
+	padding-left: 40px;
+	padding-top: 15px;
+	
+}
+.contact3 img{
+	padding-right: 30px;
+}
+.hinhvitri{
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top:295px;
+	left: 1030px;
+	z-index: 20;
+}
+.vitrinho {
+	background-color:aliceblue;
+	height: 50px;
+	width: 250px;
+	position: absolute;
+	left: 1100px;
+	top:320px;
+	text-align: center;
+	font-size: 25px;
+}
+.vitrinho a{
+	color: black;
+}
+.vitria:hover{
+	color: cadetblue;
+}
+.vitria {
+	display: inline;
+	position: absolute;
+	top:-20px;
+	left:40px;
+}
+.footer {
+	height: 100px;
+	background-color: black;
+	color: aliceblue;
+	text-align: center;
+	margin-top: -20px;
+}
+.ul5 {
+	padding-top: 40px;
+}
+.ul5 a{
+	color: aliceblue;
+	text-decoration: none;
+}
+.li5:hover{
+	text-transform: uppercase;
+	color: cadetblue;
+	text-decoration: underline;
+}
+.xemm:hover{
+	color: cadetblue;
+	font-size: 100px;
+	text-decoration: line-through;
+	margin-top: 10px;
+}
+.tieude:hover{
+	color: black;
+	text-decoration: underline;
+}
