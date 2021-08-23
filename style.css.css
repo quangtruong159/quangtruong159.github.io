@@ -160,6 +160,17 @@ h1 {
 	text-align: center;
 	font-size: 50px;
 }
+.caroulseo {
+	width: 100%;
+	height: 300px;
+	margin-top: 50px;
+	padding-bottom: 50px;
+	margin-bottom: 30px;
+}
+.hinhcaru {
+	height: 300px;
+	width: 100%;
+}
 .oo2 {
 	grid-column-start: 2;
 	grid-column-end: 4;
@@ -249,7 +260,17 @@ h1 {
 	position: absolute;
 	top:250px;
 }
-
+.noidung3 {
+	overflow: hidden;
+}
+.noidung3 .hinh1 {
+	
+	transition: all 0.5s linear;
+	overflow: hidden;
+}
+.noidung3:hover .hinh1 {
+	transform: scale(1.1)
+}
 
 .hinh1:hover .chunhoa2{
 	display:block;
@@ -666,4 +687,40 @@ position: absolute;
 .tieude:hover{
 	color: black;
 	text-decoration: underline;
+}
+.o2 ul li ul {
+	background-color: cadetblue;
+	height: 200px;
+	width: 190px;
+	color: white;
+	position: absolute;
+	top: 60px;
+	left: 53px;
+	padding-top: 20px;
+	line-height: 35px;
+	transition: all 0.5s linear;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 100000000000000;
+	text-align: center;
+	padding-left: 0px;
+}
+.o2 ul li:hover ul {
+	visibility: visible;
+	opacity: 1;
+}
+.amenucon {
+	color: white;
+}.amenucon:hover {
+	
+	color:yellow;
+}
+.menucon {
+	list-style-type: none;
+}
+.licon {
+	display: block;
+	text-align: center;
+	padding-right: 10px;
+	
 }
